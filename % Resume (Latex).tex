@@ -1,7 +1,7 @@
 
 % Inspired by: https://www.overleaf.com/latex/templates/iiitdmj-resume-template/mjygbxsxgcnn
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.5pt]{article}
 
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -82,15 +82,15 @@
 %     {Hello}{Oct 2088 - Sep 2089}
 %     \resumeItemListStart
 %        \resumeItem{World}
-%          {Its David Y}
+%          {Its Kairan Y}
 %     \resumeItemListEnd
 %    \resumeSubHeadingListEnd
 
 \begin{center}
-    \textbf{\Huge \scshape Kairan(David) Yang} \\ \vspace{1pt}
-    \small 613-261-6783 $|$ \href{mailto:x@x.com}{\underline{kyang784512@icloud.com}} $|$ 
-    \href{www.linkedin.com/in/david-yang-487117252}{\underline{linkedin.com/in/david-yang-487117252}} $|$
-    \href{https://github.com/...}{\underline{https://github.com/david60420}}
+    \textbf{\Huge \scshape Kairan Yang} \\ \vspace{1pt}
+    \small 613-261-6783 $|$ 
+    \href{www.linkedin.com/in/david-yang-487117252}{\underline{linkedin: david-yang-487117252}} $|$
+    \href{https://github.com/david60420}{\underline{https://github.com/david60420}} $|$ \href{kyang784512@icloud.com}{\underline{kyang784512@icloud.com}}
 \end{center}
 
 
@@ -104,17 +104,19 @@
   \resumeSubHeadingListEnd
 
 
-%#3 Experience
-\section{Experience}
+%#3 Relevant work
+\section{Relevant Work}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Cyber Security Club Member}{Mar. 2023 - Present}
+      {Cyber Security Club Member}{March 2023 - Present}
       {University of Ottawa}{Ottawa, ON}
       \resumeItemListStart
-        \resumeItem{Submitted solutions and created Cyber Security related problems using Python, html}
-        \resumeItem{Helped developing two full-stack programs using Node and React. Their functions contain detecting malicious attacks and finding correct passwords based on usernames(only compiles with data presented by club members)} 
-        \resumeItem{Used basic hash function(hashlib), type juggling, encrypt function}
+        \resumeItem{Submitted solutions and created Cyber Security related problems using Python, HTML}
+        \resumeItem{Communicated with other organizers on ideas and event settings}
+        \resumeItem{Helped developing two full-stack programs using Flask. They were encrypted passwords, vault locks... and simulated malicious attacks. }
+        \resumeItem{Programmed solutions to problems with python(only compiles with scenario presented by club members)} 
+        \resumeItem{Used basic hash function(hashlib), type juggling, encrypt function, socket}
 
         
       \resumeItemListEnd
@@ -137,35 +139,43 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Parking Lot} $|$ \emph{Java, React, Eclipse/VS Code}}{October 2023 -- }
+          {\textbf{Parking Lot} $|$ \emph{Java, Eclipse/VS Code}}{October 2022 - March 2023}
           \resumeItemListStart
-            \resumeItem{Developed a back end application that simulates a parking lot}
+            \resumeItem{Developed a back-end application that simulates a parking lot}
             \resumeItem{Used OOP, interface, inheritance, polymorphism, ADT stacks/queues/lists, iterators, recursion, binary search tree, expectations}
-            \resumeItem{Consists of functions that find available spots for cars of different sizes; optimize lot capacity; implement simulaged clock; following rules(e.g. enter and exit one time only)}
+            \resumeItem{Consists of functions that find available spots for cars of different sizes; optimize lot capacity; implement simulated clock; follow rules(e.g. a car can enter and exit one time only, the maximum duration of parking...); Put cars in line with queues... }
   
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Personal Resume} $|$ \emph{LaTeX, GitHub, Overleaf, VS Code}}{November 2023 -- Jan 2024}
+          {\textbf{Personal Resume} $|$ \emph{LaTeX, GitHub, Overleaf, VS Code}}{September 2023 - January 2024}
           \resumeItemListStart
-            \resumeItem{Developed my resume with inspirations from Overleaf}
-            \resumeItem{Consists of document structure/classes/environment, text options/formatting/margins, new commands, indexing, packages}
-            \resumeItem{\emph{Source code of this resume}}
+            \resumeItem{Developed my resume with Overleaf}
+            \resumeItem{Consists of document structure/classes/environment, text options/formatting/margins, new commands, indexing, packages...}
+            \resumeItem{\underline{{This project is the source code of this resume}}}
           \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Blog Management(Incomplete)} $|$ \emph{Python, GitHub, HTML, VS Code, Flask}}{September 2023 - Present}
+          \resumeItemListStart
+            \resumeItem{Developed my resume with Overleaf}
+            \resumeItem{Consists of document structure/classes/environment, text options/formatting, margins, new commands, indexing, packages...}
+            \resumeItem{\underline{{Source code of this resume}}}
+          \resumeItemListEnd
+        
     \resumeSubHeadingListEnd
 
 
 
 
 %#5 Skills
-\section{Technical Skills}
+\section{Knowledge}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Java, Python, C++, HTML/CSS, LaTeX, JavaScript} \\
-     \textbf{Frameworks}{: React, Node.js} \\
-     \textbf{Developer Tools}{: GitHub,  VS Code, Visual Studio, IntelliJ, Eclipse, Overleaf} \\
-     \textbf{Libraries}{: NumPy, Matplotlib, hashlib}
+     \textbf{Programming Tools}{: GitHub,  VS Code, Visual Studio, IntelliJ, Eclipse, Overleaf} \\
+     \textbf{Frameworks}{: Spring, Node.js, Flask, Bootstrap} \\
+     \textbf{Libraries}{: NumPy, socket, hashlib}
     }}
  \end{itemize}
-
 
 \end{document}
